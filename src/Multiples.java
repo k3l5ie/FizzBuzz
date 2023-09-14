@@ -3,7 +3,7 @@ public class Multiples {
     public static void main(String[] args) {
         int multiples = 0;
 
-        for (int i = 0; i < 1000; i++) {
+        for (int i = 1; i < 1000; i++) {
 
             // Find out which numbers divide i.
             boolean divisibleBy3 = i % 3 == 0;
